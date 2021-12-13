@@ -154,9 +154,8 @@ img {
 }
 
 .add-to-cart {
-  bottom: 10px;
-  left: 30%;
-  position: absolute;
+  margin-left: 25%;
+  margin-top: 3px;
 }
 
 @media (max-width: 480px) {
