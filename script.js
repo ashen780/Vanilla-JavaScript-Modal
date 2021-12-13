@@ -27,10 +27,13 @@ function openModal(modal) {
   if (modal == null) return
   modal.classList.add('active')
   overlay.classList.add('active')
+  document.body.classList.add('no-scroll')
 }
 
 function closeModal(modal) {
   if (modal == null) return
   modal.classList.remove('active')
   overlay.classList.remove('active')
+  document.body.classList.remove('no-scroll')
+
 }
