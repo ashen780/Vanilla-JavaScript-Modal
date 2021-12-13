@@ -153,9 +153,10 @@ img {
 
 @media (max-width: 480px) {
   .modal {
+    overflow: auto;
     width: 100%;
     max-width: 95%;
-    margin-top: 20%;
+    margin-top: 10%;
     height: 80%;
   }
 }
